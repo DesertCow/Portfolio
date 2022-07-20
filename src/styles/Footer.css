@@ -1,0 +1,32 @@
+/* =================== Footer ===================  */
+
+footer {
+  display: block;
+  margin-bottom: 0px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(140, 140, 247, 0.746);
+  color: var(--whiteMatch);
+  position: fixed;
+}
+
+
+footer ul li {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+footer ul {
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
