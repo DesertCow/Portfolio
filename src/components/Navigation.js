@@ -10,7 +10,7 @@ function NavBarz({ currentPage, handlePageChange }) {
         <meta charSet="utf-8" />
         <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&amp;family=Kdam+Thmor+Pro&amp;display=swap" rel="stylesheet"></link>
       </Helmet>
-      <ul className="nav navbar nav-tabs justify-content-space-between m-3">
+      <ul className="nav navbar nav-tabs justify-content-space-between m-3 p-2">
         <li className="nav-item">
           <ul class="row text-center">
             <a
@@ -20,8 +20,10 @@ function NavBarz({ currentPage, handlePageChange }) {
 
               className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
             >
-              <firstname class="col firstName m-0">Clayton</firstname>
-              <lastname class="col lastName m-2">Skaggs</lastname>
+              <div className="col">
+                <firstname class="row firstName m-0">Clayton</firstname>
+                <lastname class="row lastName m-2">Skaggs</lastname>
+              </div>
             </a>
           </ul>
         </li>
