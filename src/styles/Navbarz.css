@@ -1,6 +1,10 @@
 .navbar {
   background: #6a1b9a;
-  height: 60px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .navbar a {
@@ -9,4 +13,21 @@
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+}
+
+.firstName {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.lastName {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 60px;
+  margin-left: -108px;
+
 }
