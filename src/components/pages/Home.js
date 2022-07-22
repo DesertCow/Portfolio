@@ -38,24 +38,24 @@ export default function Home() {
         </div>
       </div>
       <div className="d-flex m-4 p-3 justify-content-center align-items-center appZone flex-row">
-        <h1 className="flex-col SectionTitle">Projects/Apps:</h1>
-        <div className="row">
-          <div>
-            <h2>Dinner With Schmucks</h2>
-            <a href="https://desertcow.github.io/DinnerWithSchmucks" className="">
-              <img className="AppGIF img-fluid" src="https://github.com/DesertCow/DinnerWithSchmucks/blob/main/assets/images/DinnerWithSchmucks_Demo.gif?raw=true" alt="Dinner For Schmucks Demo GIF"></img>
+        <div className="row d-flex px-5">
+          <h1 className="flex-col SectionTitle">Projects/Apps:</h1>
+          <div className="flex-col AppBox mt-5">
+            <h2 className="flex-row text-center mt-3">Dinner With Schmucks</h2>
+            <a href="https://desertcow.github.io/DinnerWithSchmucks" className="d-flex justify-content-center mb-5 mt-3">
+              <img className="AppGIF AppGIF1 img-fluid" src="https://github.com/DesertCow/DinnerWithSchmucks/blob/main/assets/images/DinnerWithSchmucks_Demo.gif?raw=true" alt="Dinner For Schmucks Demo GIF"></img>
             </a>
           </div>
-          <div>
-            <h2>Wx Dashboard </h2>
-            <a href="https://desertcow.github.io/WxDashboard" className="">
-              <img className="AppGIF img-fluid" src="https://github.com/DesertCow/WxDashboard/raw/main/assets/devMeta/Final_Demo.gif?raw=true" alt="WX Dashboard Demo GIF"></img>
+          <div class="AppBox mt-5">
+            <h2 className="flex-row text-center">Wx Dashboard </h2>
+            <a href="https://desertcow.github.io/WxDashboard" className="d-flex justify-content-center mb-5 mt-3">
+              <img className="AppGIF AppGIF2 img-fluid" src="https://github.com/DesertCow/WxDashboard/raw/main/assets/devMeta/Final_Demo.gif?raw=true" alt="WX Dashboard Demo GIF"></img>
             </a>
           </div>
-          <div>
-            <h2 className="row">Surf-Deck </h2>
-            <a href="https://surf-deck.herokuapp.com/" className="">
-              <img className="AppGIF img-fluid" src="https://github.com/DesertCow/Surf-Deck/raw/main/public/img/demo1.gif" alt="Surf Deck Demo"></img>
+          <div class="AppBox mt-5">
+            <h2 className="flex-row text-center">Surf-Deck </h2>
+            <a href="https://surf-deck.herokuapp.com/" className="d-flex justify-content-center mb-5 mt-3">
+              <img className="AppGIF AppGIF3 img-fluid" src="https://github.com/DesertCow/Surf-Deck/raw/main/public/img/demo1.gif" alt="Surf Deck Demo"></img>
             </a>
           </div>
         </div>
