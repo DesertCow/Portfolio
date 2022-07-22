@@ -1,5 +1,6 @@
 import { Document, Page } from 'react-pdf';
 import React, { useState } from 'react';
+import { Helmet } from "react-helmet";
 
 export default function Resume() {
 
@@ -12,6 +13,9 @@ export default function Resume() {
 
   return (
     <div>
+      <Helmet>
+        <style>{'body { background-color: #2c4967; }'}</style>
+      </Helmet>
       <h1>Resume</h1>
       <div>
         <Document file="./Clayton_Skaggs_Resume_Summer_22.pdf" onLoadSuccess={onDocumentLoadSuccess}>
