@@ -5,27 +5,27 @@ import { Helmet } from 'react-helmet';
 
 export default function Home() {
   return (
-    <div>
+    <div className="d-flex ">
       <Helmet>
         <style>{'body { background-color: #2c4967; }'}</style>
       </Helmet>
-      <div className="d-flex justify-content-center align-items-center">
+      <div className="d-flex justify-content-center align-items-center aboutMe">
         <div className="m-5">
-          <img src={DevPhoto} className="devPhoto" width={612} height={816} alt="DevPhoto" />;
+          <img src={DevPhoto} className="devPhoto" width={306} height={408} alt="DevPhoto" />;
         </div>
         <div className="d-flex p-2 m-3">
           <div className="d-flex flex-column">
             <div>
               <h1 className="SectionTitle p-2">About Me:</h1>
             </div>
-            <div className='AboutMePar'>
+            <div className='aboutMeSection'>
               <h3 className="m-2 p-2">Hello, </h3>
-              <p className="m-2 p-2"> I am a Full stack web developer with a degree in Computer Engineering from Oklahoma State University and 5+ years experience
+              <p className="m-2 p-4 aboutMePar"> I am a Full stack web developer with a degree in Computer Engineering from Oklahoma State University and 5+ years experience
                 working as a Product Development Engineer at Intel developing Xeon class processors and chipsets. Recently I earned a
                 Web Development certificate from the University Of California, Irvine to leverage my existing programming skills to
                 include key web development technologies like HTML, CSS, Javascript, React, and Node.
               </p>
-              <p className="m-2 p-2">Working on cutting edge silicon
+              <p className="m-2 p-4 aboutMePar">Working on cutting edge silicon
                 technology required extensive technical problem solving to balance yield, coverage, and time constraints to meet
                 requirements and release whitepaper validated code to production while utilizing Agile scrum methodology. I have also
                 previously held AWS certifications and am passionate about continuously learning new skills and technologies or expanding
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="d-flex m-4 p-3 justify-content-center align-items-center flex-row">
+      <div className="d-flex m-4 p-3 justify-content-center align-items-center appZone flex-row">
         <h1 className="flex-col SectionTitle">Projects/Apps:</h1>
         <div className="row">
           <div>

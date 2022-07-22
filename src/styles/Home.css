@@ -1,6 +1,6 @@
-
-div {
-  backgroundColor: 'blue';
+:root {
+  --lightContrasBG: #6989b3;
+  --light2ContrasBG: #6AB4AC;
 }
 
 
@@ -9,9 +9,9 @@ div {
   text-align: center;
 }
 
-aboutMe {
-  width: 50%;
-  background-color: #6989b3;
+.aboutMe {
+  width: 80%;
+  background-color: var(--lightContrasBG);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -29,11 +29,29 @@ aboutMe {
   height: 334px;
 } */
 
-.AboutMePar {
-  background-color: #6989b3;
+.aboutMeSection {
+  background-color: var(--lightContrasBG);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+}
+
+.appZone {
+  background-color: var(--lightContrasBG);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.aboutMePar {
+  background-color: var(--light2ContrasBG);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
