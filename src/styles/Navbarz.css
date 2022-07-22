@@ -1,6 +1,6 @@
 :root {
   --lightContrasBG: #6989b3;
-  --light2ContrasBG: #6AB4AC;
+  --light2ContrasBG: #fdfeb8;
 }
 
 
@@ -18,7 +18,7 @@
 
 .navbar a {
   font-family: 'Kdam Thmor Pro', sans-serif;
-  color: white;
+  color: black;
   font-size: 40px;
   text-decoration: none;
   margin: 5px;
