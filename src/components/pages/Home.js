@@ -19,12 +19,14 @@ export default function Home() {
               <h1 className="SectionTitle p-2 flex-row">About Me:</h1>
             </div>
             <div className='aboutMeSection d-flex flex-col justify-content-center'>
-              <h3 className="m-2 p-2 flex-row">Hello, </h3>
-              <p className="m-2 p-4 aboutMePar flex-row"> I am a Full stack web developer with a degree in Computer Engineering from Oklahoma State University and 5+ years experience
-                working as a Product Development Engineer at Intel developing Xeon class processors and chipsets. Recently I earned a
-                Web Development certificate from the University Of California, Irvine to leverage my existing programming skills to
-                include key web development technologies like HTML, CSS, Javascript, React, and Node.
-              </p>
+              <div className="aboutMePar">
+                <h3 className="m-2 p-2 flex-row">Hello, </h3>
+                <p className="m-2 p-4 flex-row"> I am a Full stack web developer with a degree in Computer Engineering from Oklahoma State University and 5+ years experience
+                  working as a Product Development Engineer at Intel developing Xeon class processors and chipsets. Recently I earned a
+                  Web Development certificate from the University Of California, Irvine to leverage my existing programming skills to
+                  include key web development technologies like HTML, CSS, Javascript, React, and Node.
+                </p>
+              </div>
               <p className="m-2 p-4 aboutMePar flex-row">Working on cutting edge silicon
                 technology required extensive technical problem solving to balance yield, coverage, and time constraints to meet
                 requirements and release whitepaper validated code to production while utilizing Agile scrum methodology. I have also

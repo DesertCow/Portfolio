@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './Footer';
+import '../styles/MainContainer.css';
 
 export default function PortfolioContainer() {
 
@@ -29,7 +30,7 @@ export default function PortfolioContainer() {
 
   return (
 
-    <div>
+    <div className="main">
       <NavBarz currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
