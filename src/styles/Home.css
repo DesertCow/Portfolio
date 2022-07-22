@@ -54,7 +54,7 @@
 
 .appZone {
   background-color: var(--lightContrasBG);
-  max-width: 50%;
+  max-width: 80%;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -70,6 +70,7 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   min-width: 25%;
+  max-width: 50%;
 }
 
 .AppBox {
@@ -79,4 +80,6 @@
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  max-width: 35%;
+  min-width: 25%;
 }

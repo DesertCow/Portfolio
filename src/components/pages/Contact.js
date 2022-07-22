@@ -17,13 +17,13 @@ export default function Contact() {
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="name" name="name" className="form-control"></input>
-                    <label for="name" className="">Your name</label>
+                    <label htmlFor="name" className="">Your name</label>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="email" name="email" className="form-control"></input>
-                    <label for="email" className="">Your email</label>
+                    <label htmlFor="email" className="">Your email</label>
                   </div>
                 </div>
               </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="col-md-12">
                   <div className="md-form mb-0">
                     <input type="text" id="subject" name="subject" className="form-control"></input>
-                    <label for="subject" className="">Subject</label>
+                    <label htmlFor="subject" className="">Subject</label>
                   </div>
                 </div>
               </div>
@@ -40,13 +40,14 @@ export default function Contact() {
 
                   <div className="md-form">
                     <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                    <label for="message">Your message</label>
+                    <label htmlFor="message">Your message</label>
                   </div>
                 </div>
               </div>
             </form>
             <div className="text-center text-md-left">
-              <a className="btn btn-primary" onClick="document.getElementById('contact-form').submit();">Send</a>
+              {/* document.getElementById('contact-form').submit(); */}
+              {/* <a className="btn btn-primary" onClick="">Send</a> */}
             </div>
             <div className="status"></div>
           </div>
