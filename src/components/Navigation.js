@@ -5,15 +5,17 @@ import { Helmet } from "react-helmet";
 function NavBarz({ currentPage, handlePageChange }) {
 
   return (
-    <div className="D-flex">
+    <div className="d-flex">
       <Helmet>
         <meta charSet="utf-8" />
         <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&amp;family=Kdam+Thmor+Pro&amp;display=swap" rel="stylesheet"></link>
       </Helmet>
-      <ul className="nav navbar nav-tabs justify-content-space-between m-3 p-2">
+      <ul className="nav navbar justify-content-around m-3 p-2">
         <li className="nav-item">
           <ul className="row text-center">
-            <a
+            <div className="row firstName m-0 p-2">Clayton</div>
+            <div className="row lastName m-0 p-2">Skaggs</div>
+            {/* <a
               href="#home"
               onClick={() => handlePageChange('Home')}
               //* Responding to user clicking on home link
@@ -24,10 +26,10 @@ function NavBarz({ currentPage, handlePageChange }) {
                 <div className="row firstName m-0">Clayton</div>
                 <div className="row lastName m-2">Skaggs</div>
               </div>
-            </a>
+            </a> */}
           </ul>
         </li>
-        <li className="nav-item">
+        <li className="nav-item navButton text-center">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -38,7 +40,7 @@ function NavBarz({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item navButton text-center">
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
@@ -49,7 +51,7 @@ function NavBarz({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item navButton text-center">
           <a
             href="#Resume"
             onClick={() => handlePageChange('Resume')}

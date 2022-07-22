@@ -1,6 +1,6 @@
-
-div {
-  backgroundColor: 'blue';
+:root {
+  --lightContrasBG: #6989b3;
+  --light2ContrasBG: #fdfeb8;
 }
 
 
@@ -9,9 +9,9 @@ div {
   text-align: center;
 }
 
-aboutMe {
-  width: 50%;
-  background-color: #6989b3;
+.aboutMe {
+  width: 80%;
+  background-color: var(--lightContrasBG);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -20,20 +20,66 @@ aboutMe {
 }
 
 .AppGIF {
-  width: 483px;
-  height: 234px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  opacity: 94%;
 }
 
-/* app1 {
-  width: 250px;
-  height: 334px;
-} */
+.AppGIF1 {
+  max-width: 600px;
+  height: auto;
+}
 
-.AboutMePar {
-  background-color: #6989b3;
+.AppGIF2 {
+  max-width: 700px;
+  height: auto;
+}
+
+.AppGIF3 {
+  max-width: 800px;
+  height: auto;
+}
+
+.aboutMeSection {
+  background-color: var(--lightContrasBG);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+}
+
+.appZone {
+  background-color: var(--lightContrasBG);
+  max-width: 80%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.aboutMePar {
+  background-color: var(--light2ContrasBG);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  min-width: 25%;
+  max-width: 50%;
+}
+
+.AppBox {
+  background-color: var(--light2ContrasBG);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  max-width: 35%;
+  min-width: 25%;
 }
