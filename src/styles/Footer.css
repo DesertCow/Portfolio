@@ -7,7 +7,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: rgba(140, 140, 247, 0.746);
+  background: #7c716b;
   color: var(--whiteMatch);
   position: fixed;
   border-top-left-radius: 25px;
