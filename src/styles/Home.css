@@ -87,3 +87,19 @@
   max-width: 35%;
   min-width: 25%;
 }
+
+.wxDashboard {
+font-size: 65px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.surfDeck {
+
+font-family: 'Monoton', cursive;
+font-size: 75px;
+}
+
+.notey {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 150px;
+}

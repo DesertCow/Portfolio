@@ -8,13 +8,15 @@ function NavBarz({ currentPage, handlePageChange }) {
     <div className="d-flex">
       <Helmet>
         <meta charSet="utf-8" />
-        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&amp;family=Kdam+Thmor+Pro&amp;display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Monoton&family=Mr+Dafoe&family=Orbitron:wght@700&display=swap" rel="stylesheet"></link>
       </Helmet>
       <ul className="nav navbar justify-content-around m-3 p-2">
         <li className="nav-item">
           <ul className="row text-center">
-            <div className="row firstName m-0 p-2">Clayton</div>
-            <div className="row lastName m-0 p-2">Skaggs</div>
+            <div className="row firstName m-0 p-0">Clayton</div>
+            <div className="row lastName m-0 p-0">Skaggs</div>
             {/* <a
               href="#home"
               onClick={() => handlePageChange('Home')}
