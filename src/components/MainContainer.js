@@ -36,12 +36,6 @@ export default function PortfolioContainer() {
       <Footer />
     </div>
 
-    // <div>
-    //   <h1> Test TEst TEst!</h1>
-    //   <h2> Test TEst TEst!</h2>
-    //   <h3> Test TEst TEst!</h3>
-    // </div>
-
   );
 
 }

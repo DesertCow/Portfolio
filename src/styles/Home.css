@@ -8,7 +8,7 @@
   background-color: var(--light2ContrasBG);
   text-align: center;
   font-family: 'Bungee Shade', cursive;
-  font-size: 70px;
+  font-size: 55px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -19,7 +19,6 @@
 
 .aboutMe {
   width: 80%;
-  /* background-color: var(--lightContrasBG); */
   border-style: dashed;
   border-width: 10px;
   border-color: var(--lightContrasBG);
@@ -117,4 +116,12 @@ font-size: 75px;
 .notey {
   font-family: 'Mr Dafoe', cursive;
   font-size: 150px;
+}
+
+.devPhoto {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }

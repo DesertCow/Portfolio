@@ -9,12 +9,13 @@ export default function Contact() {
       <Helmet>
         <style>{'body { background-color: #2c4967; }'}</style>
       </Helmet>
-      <div className="m-5 row">
+      {/* <div className="m-5 row">
         <img src={ContactPhoto} className="devPhoto" width={600} height={1200} alt="ContactPhoto" />;
-      </div>
-      <div>
-        <section className="mb-4 contactForm">
-          <h2 className="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+      </div> */}
+      <div className="d-flex justify-content-center">
+        {/* <section className="mb-4 contactForm" style={{ backgroundImage: `url(${ContactPhoto})`, }}> */}
+        <section className="mb-4 contactForm ">
+          <h2 className="h1-responsive font-weight-bold text-center mt-0 my-5 contactTitle">Contact Me</h2>
           <div className="row">
             <div className="col-md-9 mb-md-0 mb-5">
               <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -57,24 +58,26 @@ export default function Contact() {
               <div className="status"></div>
             </div>
             <div className="col-md-3 text-center">
-              <ul className="d-flex row list-unstyled mb-0">
+              <div className="d-flex row m-0 justify-content-center align-items-center list-unstyled mb-0">
                 <div className="d-flex row justify-content-center locationEmail m-3 p-3 align-items-center">
-                  <li className="d-flex row"><i className="fas fa-map-marker-alt fa-2x"></i>
-                    <p className="p-2 pb-0">Newport Beach, CA </p>
-                  </li>
-                  <li className="d-flex row"><i className="fas fa-envelope mt-4 fa-2x"></i>
-                    <p className="p-2 pt-0">clayton.skaggs89@gmail.com</p>
-                  </li>
+                  <div className="d-flex row"><i className="fas fa-map-marker-alt fa-2x"></i>
+                    <p className="p-2 pb-0 locationText">🏝️ Newport Beach, CA 🏖️</p>
+                  </div>
                 </div>
-                <li className="MailLink">
+                <div className="MailLink">
+                  <div><i className="fas fa-envelope mt-4 fa-2x d-flex flex-row"></i>
+                    <div className="emailBox d-flex justify-content-center align-items-center">
+                      <p className="p-0 locationEmailText m-1">clayton.skaggs89@gmail.com</p>
+                    </div>
+                  </div>
                   <a href="mailto: clayton.skaggs89@gmail.com">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" className="bi bi-mailbox" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" className="bi bi-mailbox mb-4" viewBox="0 0 16 16">
                       <path d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
                       <path d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
                     </svg>
                   </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
