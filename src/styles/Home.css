@@ -5,8 +5,16 @@
 
 
 .SectionTitle {
-  font-size: 40px;
+  background-color: var(--light2ContrasBG);
   text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 70px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  max-width: 40%;
 }
 
 .aboutMe {
@@ -47,15 +55,22 @@
 }
 
 .aboutMeSection {
-  /* background-color: var(--lightContrasBG); */
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+  font-family: 'Orbitron', sans-serif;
+  /* background-color: var(--lightContrasBG);
+  border-radius: 26px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px; */
+}
+
+.mainSectionHeader {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 80px;
 }
 
 .appZone {
+  font-family: 'Bungee Shade', cursive;
   border-style: dashed;
   border-width: 10px;
   border-color: var(--lightContrasBG);
@@ -68,22 +83,38 @@
 
 .aboutMePar {
   background-color: var(--light2ContrasBG);
+  min-width: 25%;
+  max-width: 50%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  min-width: 25%;
-  max-width: 50%;
 }
 
 .AppBox {
   background-color: var(--light2ContrasBG);
+  max-width: 35%;
+  min-width: 25%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  max-width: 35%;
-  min-width: 25%;
+}
+
+.wxDashboard {
+font-size: 65px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.surfDeck {
+
+font-family: 'Monoton', cursive;
+font-size: 75px;
+}
+
+.notey {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 150px;
 }

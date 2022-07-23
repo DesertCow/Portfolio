@@ -7,19 +7,19 @@
 
 .navbar {
   background-color: var(--lightContrasBG);
+  max-height: 250px;
+  width: 100%;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  max-height: 250px;
-  width: 100%;
 }
 
 .navbar a {
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Bungee Shade', cursive;
   color: black;
-  font-size: 40px;
+  font-size: 55px;
   text-decoration: none;
   margin: 5px;
   line-height: 3;
@@ -28,23 +28,27 @@
 .firstName {
   color: black;
   text-decoration: none;
-  font-size: 40px;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 65px;
+  font-family: 'Bungee Shade', cursive;
 }
 
 .lastName {
   color: black;
   text-decoration: none;
-  font-size: 43px;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 75px;
+  font-family: 'Bungee Shade', cursive;
 }
 
 .navButton {
-  width: 200px;
+  width: auto;
   background-color: var(--light2ContrasBG);
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+}
+
+.navButton:hover {
+  background-color: #E5FFB8;
 }
