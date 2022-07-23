@@ -48,3 +48,7 @@
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
+
+.navButton:hover {
+  background-color: #E5FFB8;
+}
